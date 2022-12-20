@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(43, 40, 40);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.heading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    top: -98px;
+}
+
+h1 {
+    font-size: 45px;
+    display: inline;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+span img {
+    border-radius: 20px;
+    margin: 25px 15px;
+    padding: 10px 8px;
+    width: 150PX;
+    filter: invert(100%);
+}
+
+
+#Galexy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+iframe {
+    width: 30%;
+    margin: 15px 10px;
+    border-radius: 30px;
+    border-top: 4px solid rgb(138, 11, 241);
+    border-bottom: 4px solid rgb(235, 7, 7);
+    border-left: 7px solid rgb(33, 19, 230);
+    border-right: 7px solid rgb(236, 146, 12);
+
+}
+
+@media only screen and (min-width:100px) and (max-width:400px) {
+    iframe {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width:800px) {
+    iframe {
+        width: 45%;
+        height: 45%;
+    }
+}
+
+.footer {
+    font-style: italic;
+    color: whitesmoke;
+    padding: 8% 0%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    height: 200%;
+    border-radius: 2%;
+}
+
+li {
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    list-style: none;
+}
+
+div img {
+    position: relative;
+    left: -190px;
+    width: 140px;
+    filter: invert(100%);
+}
+
+#copyright {
+    position: relative;
+    left: -200px;
+    top: 40px;
+    font-size: 20px;
+}
